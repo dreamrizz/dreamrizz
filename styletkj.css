@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(tkj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background-color: rgba(59, 126, 226, 0.781);
+    padding: 12px;
+    font-style: italic;
+    text-align: center;
+    box-shadow: 0px 5px 18px 2px rgba(0,227,255,0.7);
+-webkit-box-shadow: 0px 5px 18px 2px rgba(0,227,255,0.7);
+-moz-box-shadow: 0px 5px 18px 2px rgba(0,227,255,0.7);
+}
+.galery {
+    margin: 60px;
+    color: white;
+    font-size: larger;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 20px;
+}
+p{
+    text-decoration: none;
+    color: white
+}
+img {
+    margin: auto;
+}
+ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+;
+} 
+li {
+    list-style-type: none
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.border :hover {
+    background-color: rgba(0, 132, 255, 0.527);
+    transition: .6s;
+}
+
+.misi {
+    color:white
+}
+h1 {
+    color: rgb(0, 225, 255);
+}
+
+.link-gambar {
+    height: 70px;
+}
+.doc {
+    text-align: center;
+}
+
+.lurus {
+    display: inline;
+}
+.copy {
+    text-align: center;
+    color: rgb(0, 255, 255);
+}
+
+.link-grup {
+    color: rgba(255, 255, 255, 0.226);
+
+}
+
+/* navbar gila aja */
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem 2rem;
+    box-shadow: 0px 5px 5px rgba(255, 255, 255, 0.356);
+    background-color: rgba(255, 255, 255, 0);
+}
+h1 {
+
+    font-size: 2rem;
+    color: rgb(0, 68, 120);
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    transition: .7s;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover {
+    text-decoration: none;
+    padding: 0px;
+    transition: .7s;
+    color: rgb(0, 174, 255);
+}
+.menu-icon {
+    font-size: 28px;
+    display: none;
+}   
+@media screen and (max-width : 1020px){
+    nav {
+        flex-wrap: wrap;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    nav ul.hidden {
+        display: none;
+    }
+    .menu-icon {
+    display: flex;
+    
+    align-items: center;
+    }
+}
+
+.logo-nav {
+    margin-left: 2rem;
+    height: 60px;   
+}
+
+/* navbar gila aja */

@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(smk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 12px;
+    border: 1px solid black;
+    font-style: italic;
+    text-align: center;
+    box-shadow: 0px 5px 33px 2px rgba(0, 0, 0, 0.8);
+-webkit-box-shadow: 0px 5px 33px 2px rgba(0, 0, 0, 0.8);
+-moz-box-shadow: 0px 5px 33px 2px rgba(0,0,0,0.8);
+    
+}
+.galery {
+    margin: 60px;
+    color: white;
+    font-size: larger;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 20px;
+}
+p{
+    text-decoration: none;
+    color: white
+}
+img {
+    margin: auto;
+}
+ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+;
+} 
+li {
+    list-style-type: none
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 6px;
+    border-radius: 5px;
+}
+.border :hover {
+    background-color: black;
+    transition: .6s;
+}
+.misi {
+    color:white
+}
+h1 {
+    color:rgba(248, 183, 4, 0.897)
+}
+
+.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    height: 200px
+}
+.docsmk {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    height: 200px;
+    border-radius: 15px;
+}
+.dokumentasi {
+    display: inline;
+}
+
+.lurus {
+    display: inline;
+}
+.copy {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.205);
+}
+
+.doc {
+    text-align: center;
+}
+
+.copy {
+    text-align: center;
+    color: rgb(0, 255, 255);
+}
+
+.link-grup {
+    color: rgba(255, 255, 255, 0.247);
+}
+/* slidesss */
+
+.images-aua {
+    display: flex;
+    width: 800px;
+    transition: 2s;
+}
+.slide-aua {
+    margin: auto;
+    width: 900px;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+}
+#slide-1:target ~ .images-aua {
+    margin-left: -3%;
+}
+#slide-2:target ~ .images-aua {
+    margin-left: -110%;
+}
+#slide-3:target ~ .images-aua {
+    margin-left: -220%;
+}
+.navigasi-aua a{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #dedede;
+    font-size: 0px;
+    border-radius: 50%;
+    margin: 3px;
+    transition: 1s;
+}
+.navigasi-aua a:hover{
+    background-color: black;
+}
+.navigasi-aua {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -50px;
+}
+@media screen and (max-width: 920px){
+    .slide-aua {
+        width: 100%;
+    }
+    #slide-1:target ~ .images-aua {
+        margin-left: 0%;
+    }
+    #slide-2:target ~ .images-aua {
+        margin-left: -162%;
+    }
+    #slide-3:target ~ .images-aua {
+        margin-left: -325%;
+    }
+}
+@media screen and (max-width: 720px){
+    .slide-aua {
+        width: 90%;
+    }
+    #slide-1:target ~ .images-aua {
+        margin-left: 0px;
+    }
+    #slide-2:target ~ .images-aua {
+        margin-left: -320%;
+    }
+    #slide-3:target ~ .images-aua {
+        margin-left: -600%;
+    }
+}
+
+/* slides */
+
+/* navbar gila aja */
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem 2rem;
+    box-shadow: 0px 5px 5px rgba(255, 255, 255, 0.356);
+    background-color: rgba(255, 255, 255, 0);
+}
+h1 {
+
+    font-size: 2rem;
+    color: rgb(0, 110, 255);
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    transition: .7s;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover {
+    text-decoration: none;
+    transition: .7s;
+    padding: 0px;
+    color: black;
+}
+.menu-icon {
+    font-size: 28px;
+    display: none;
+}   
+@media screen and (max-width : 1020px){
+    nav {
+        flex-wrap: wrap;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    nav ul.hidden {
+        display: none;
+    }
+    .menu-icon {
+    display: flex;
+    
+    align-items: center;
+    }
+}
+
+.logo-nav {
+    margin-left: 2rem;
+    height: 60px;   
+}
+
+/* navbar gila aja */
